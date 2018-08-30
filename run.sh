@@ -1,2 +1,2 @@
 #!/bin/bash
-swift src/main.swift
+find . -iname '*.swift' | xargs swiftc -o build/main && build/main

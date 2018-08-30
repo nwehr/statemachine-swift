@@ -1,0 +1,12 @@
+////////////////////////////////////////////
+/// Unique
+////////////////////////////////////////////
+class Unique {
+	let id: UInt
+	let name: String
+	
+	init(id: UInt, name: String) {
+		self.id = id
+		self.name = name
+	}
+}
